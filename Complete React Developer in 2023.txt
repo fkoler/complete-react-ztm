@@ -36,14 +36,12 @@ https://create-react-app.dev/docs/getting-started/
 22. Create React App - React-Scripts 1
 https://react.dev/reference/react/StrictMode
 
-23. Create React App - React-Scripts 2
+27. Quick note: React 18 Strict Mode
+https://legacy.reactjs.org/docs/strict-mode.html#detecting-unexpected-side-effects
 
-
-
-
-
-
-
+28. Monsters Rolodex - Class Components
+yarn start
+https://react.dev/learn/writing-markup-with-jsx
 
 
 
