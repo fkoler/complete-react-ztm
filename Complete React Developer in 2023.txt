@@ -33,10 +33,10 @@ https://classic.yarnpkg.com/en/
 https://zhangmyihua.github.io/monsters-rolodex/
 https://create-react-app.dev/docs/getting-started/
 
+22. Create React App - React-Scripts 1
+https://react.dev/reference/react/StrictMode
 
-
-
-
+23. Create React App - React-Scripts 2
 
 
 
