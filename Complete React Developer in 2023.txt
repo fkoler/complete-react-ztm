@@ -46,10 +46,10 @@ https://react.dev/learn/writing-markup-with-jsx
 29. Monsters Rolodex - Component State
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
 
-
-
-
-
+30. Monsters Rolodex - setState
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+https://react.dev/reference/react/Component#setstate
 
 
 
