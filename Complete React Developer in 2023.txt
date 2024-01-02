@@ -43,8 +43,8 @@ https://legacy.reactjs.org/docs/strict-mode.html#detecting-unexpected-side-effec
 yarn start
 https://react.dev/learn/writing-markup-with-jsx
 
-
-
+29. Monsters Rolodex - Component State
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
 
 
 
