@@ -64,9 +64,7 @@ https://jsonplaceholder.typicode.com/users
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
 
-43. Monsters Rolodex - Storing Original Data
-
-44. Monsters Rolodex - Optimizations
+45. Monsters Rolodex - Understanding Components
 
 
 
