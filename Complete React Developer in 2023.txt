@@ -51,7 +51,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 https://react.dev/reference/react/Component#setstate
 
-33. Monsters Rolodex - Mapping Arrays to Elements
+35. Monsters Rolodex - Keys for Mapping
 
 
 
