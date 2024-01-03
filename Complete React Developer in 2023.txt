@@ -55,13 +55,13 @@ https://react.dev/reference/react/Component#setstate
 https://jsonplaceholder.typicode.com/users
 https://react.dev/reference/react/Component#componentdidmount
 
+40. Monsters Rolodex - Input Search Box Component
+https://react.dev/learn/typescript#typing-dom-events
 
-
-
-
-
-
-
+41. Monsters Rolodex - Searching & Filtering
+https://react.dev/learn/start-a-new-react-project
+https://jsonplaceholder.typicode.com/users
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
 
 
 
