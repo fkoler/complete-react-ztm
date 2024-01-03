@@ -10,9 +10,13 @@ class App extends Component {
     this.state = {
       monsters: []
     };
+
+    console.log('1');
   };
 
   componentDidMount() {
+    console.log('3');
+
     fetch('https://jsonplaceholder.typicode.com/users')
       .then((res) => res.json())
       .then((users) =>
@@ -21,12 +25,14 @@ class App extends Component {
             return { monsters: users };
           },
           () => {
-            console.log(this.state);
+            // console.log(this.state);
           }
         ));
   };
 
   render() {
+    console.log('2');
+
     return (
       <div className="App">
         {
