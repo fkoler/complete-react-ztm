@@ -59,12 +59,10 @@ https://react.dev/reference/react/Component#componentdidmount
 https://react.dev/learn/typescript#typing-dom-events
 
 41. Monsters Rolodex - Searching & Filtering
-https://react.dev/learn/start-a-new-react-project
-https://jsonplaceholder.typicode.com/users
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
 
-45. Monsters Rolodex - Understanding Components
+46. Monsters Rolodex - CardList Component
 
 
 
