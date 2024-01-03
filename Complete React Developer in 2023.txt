@@ -51,9 +51,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 https://react.dev/reference/react/Component#setstate
 
-31. Monsters Rolodex - States and Shallow Merge
-
-32. Monsters Rolodex - setState and Secondary Callback
+33. Monsters Rolodex - Mapping Arrays to Elements
 
 
 
