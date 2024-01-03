@@ -51,10 +51,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 https://react.dev/reference/react/Component#setstate
 
-35. Monsters Rolodex - Keys for Mapping
-
-
-
+37. Monsters Rolodex - Lifecycle Method: componentDidMount
+https://jsonplaceholder.typicode.com/users
+https://react.dev/reference/react/Component#componentdidmount
 
 
 
