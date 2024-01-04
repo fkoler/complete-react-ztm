@@ -65,7 +65,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 47. Monsters Rolodex - Component Props
 https://react.dev/learn/passing-props-to-a-component
 
-49. Monsters Rolodex - SearchBox Component
+50. Monsters Rolodex - CSS in React
 
 
 
