@@ -62,8 +62,8 @@ https://react.dev/learn/typescript#typing-dom-events
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
 
-46. Monsters Rolodex - CardList Component
-
+47. Monsters Rolodex - Component Props
+https://react.dev/learn/passing-props-to-a-component
 
 
 
