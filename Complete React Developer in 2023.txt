@@ -74,12 +74,12 @@ https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 58. Monsters Rolodex - Hooks: useState
 https://react.dev/reference/react/useState
 
-59. Monsters Rolodex - Functional Component Re-rendering
+60. Monsters Rolodex - Infinite Re-rendering
+https://react.dev/reference/react/useEffect
 
+61. Monsters Rolodex - Hooks: useEffect
 
-
-
-
+62. Monsters Rolodex - Remaining Components
 
 
 
