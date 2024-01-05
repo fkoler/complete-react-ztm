@@ -65,8 +65,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 47. Monsters Rolodex - Component Props
 https://react.dev/learn/passing-props-to-a-component
 
-50. Monsters Rolodex - CSS in React
-
+51. Monsters Rolodex - CardList Component
+https://robohash.org/
 
 
 
