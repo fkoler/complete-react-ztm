@@ -68,9 +68,9 @@ https://react.dev/learn/passing-props-to-a-component
 51. Monsters Rolodex - CardList Component
 https://robohash.org/
 
+53. Monsters Rolodex - Finishing Touches
 
-
-
+54. Functional vs Class Components
 
 
 
