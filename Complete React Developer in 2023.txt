@@ -68,15 +68,13 @@ https://react.dev/learn/passing-props-to-a-component
 51. Monsters Rolodex - CardList Component
 https://robohash.org/
 
-53. Monsters Rolodex - Finishing Touches
+55. Class Component Lifecycle Methods Breakdown
+https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
-54. Functional vs Class Components
+58. Monsters Rolodex - Hooks: useState
+https://react.dev/reference/react/useState
 
-
-
-
-
-
+59. Monsters Rolodex - Functional Component Re-rendering
 
 
 
