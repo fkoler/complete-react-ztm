@@ -114,7 +114,7 @@ git checkout -b branchname
 78. Adding Sass
 yarn add sass
 
-79. Category Item Component
+80. Directory Component
 
 
 

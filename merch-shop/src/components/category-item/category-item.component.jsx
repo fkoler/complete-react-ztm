@@ -18,7 +18,7 @@ const CategoryItem = ({ category }) => {
 
                 <p>Shop Now</p>
             </div>
-        </div >
+        </div>
     );
 };
 
