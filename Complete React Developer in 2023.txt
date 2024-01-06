@@ -83,19 +83,19 @@ https://react.dev/reference/react/forwardRef
 63. React v18: Migrating from React v17 + ReactDOM v18 Changes
 yarn upgrade react react-dom --latest
 
+64. React v18: Strict Mode Changes
+https://react.dev/reference/react/StrictMode#strictmode
 
+66. React and ReactDOM
+mkdir pure-react
+cd pure-react
+touch index.html
+code .
+https://unpkg.com/browse/react@18.0.0-rc.0/umd/react.development.js
+https://unpkg.com/react-dom@18.0.0-rc.0/umd/react-dom.development.js
+https://react.dev/reference/react/createElement
 
-
-
-
-
-
-
-
-
-
-
-
+67. React and ReactDOM part 2
 
 
 
