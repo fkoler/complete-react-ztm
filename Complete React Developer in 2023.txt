@@ -105,13 +105,13 @@ https://developer.chrome.com/docs/devtools/rendering/performance#paint-flashing
 https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+73. Github Strategy
+https://github.com/ZhangMYihua/crwn-clothing-v2
+rm -rf branchname
+git checkout branchname
+git checkout -b branchname
 
-
-
-
-
-
-
+77. Setting Up Our Categories
 
 
 
