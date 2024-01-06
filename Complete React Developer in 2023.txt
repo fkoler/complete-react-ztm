@@ -114,8 +114,8 @@ git checkout -b branchname
 78. Adding Sass
 yarn add sass
 
-80. Directory Component
-
+81. Adding Fonts
+https://fonts.google.com/specimen/Open+Sans?query=open+sans+
 
 
 
