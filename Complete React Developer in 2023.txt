@@ -111,8 +111,8 @@ rm -rf branchname
 git checkout branchname
 git checkout -b branchname
 
-77. Setting Up Our Categories
-
+78. Adding Sass
+yarn add sass
 
 
 
