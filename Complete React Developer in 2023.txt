@@ -98,12 +98,12 @@ https://react.dev/reference/react/createElement
 68. ReactDOM v18 Changes
 https://react.dev/reference/react-dom/client/createRoot
 
+69. DOM Paint Flashing
+https://developer.chrome.com/docs/devtools/rendering/performance#paint-flashing
 
-
-
-
-
-
+71. Optional: Connecting With SSH To Github
+https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 
 
