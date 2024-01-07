@@ -117,14 +117,15 @@ yarn add sass
 81. Adding Fonts
 https://fonts.google.com/specimen/Open+Sans?query=open+sans+
 
+83. Updating/Upgrading Libraries
+https://reactrouter.com/en/main
+https://www.npmjs.com/package/react-router-dom
+yarn add react-router-dom
 
-
-
-
-
-
-
-
+84. Setting Up Our Homepage
+https://reactrouter.com/en/main/router-components/browser-router#browserrouter
+https://reactrouter.com/en/main/route/route#route
+https://reactrouter.com/en/main/components/routes
 
 
 
