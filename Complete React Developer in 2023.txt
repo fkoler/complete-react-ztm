@@ -127,8 +127,8 @@ https://reactrouter.com/en/main/router-components/browser-router#browserrouter
 https://reactrouter.com/en/main/route/route#route
 https://reactrouter.com/en/main/components/routes
 
-
-
+85. React Router Outlet
+https://reactrouter.com/en/main/components/outlet#outlet
 
 
 
