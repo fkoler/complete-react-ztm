@@ -137,9 +137,9 @@ https://reactrouter.com/en/main/guides/index-search-param#index-query-param
 https://react.dev/reference/react/Fragment
 https://reactrouter.com/en/main/components/link#link
 
-
-
-
+89. Setting Up Firebase
+https://firebase.google.com/
+yarn add firebase
 
 
 
