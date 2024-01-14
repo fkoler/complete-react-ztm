@@ -141,12 +141,12 @@ https://reactrouter.com/en/main/components/link#link
 https://firebase.google.com/
 yarn add firebase
 
+90. Authentication Flow
+https://firebase.google.com/docs/auth/web/google-signin
 
-
-
-
-
-
+93. Authenticating With Firebase
+https://firebase.google.com/docs/reference/js/v8/firebase#initializeapp
+https://firebase.google.com/docs/reference/node/firebase.auth.GoogleAuthProvider#setcustomparameters
 
 
 
