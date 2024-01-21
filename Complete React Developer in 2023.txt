@@ -168,12 +168,10 @@ https://firebase.google.com/docs/reference/js/v8/firebase.database.DataSnapshot#
 97. Sign In With Redirect
 https://firebase.google.com/docs/reference/js/v8/firebase.auth.Auth#getredirectresult
 
-98. Sign Up Form Pt.1
-
 99. Sign Up Form Pt.2
+https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
 
-
-
+100. Sign Up With Email + Password
 
 
 
