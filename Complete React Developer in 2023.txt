@@ -148,15 +148,23 @@ https://firebase.google.com/docs/auth/web/google-signin
 https://firebase.google.com/docs/reference/js/v8/firebase#initializeapp
 https://firebase.google.com/docs/reference/node/firebase.auth.GoogleAuthProvider#setcustomparameters
 
+95. Setting Up User Documents
+rules_version = '2';
 
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
 
+https://firebase.google.com/docs/reference/js/firestore_.md#getfirestore_cf608e1
+https://firebase.google.com/docs/reference/js/firestore_.md#doc_1eb4c23
+https://firebase.google.com/docs/reference/js/firestore_.md#getdocs_4e56953
+https://firebase.google.com/docs/reference/js/firestore_.md#setdoc_ee215ad
 
-
-
-
-
-
-
+96. Finish Creating User Documents
 
 
 
