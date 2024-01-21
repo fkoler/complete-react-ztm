@@ -163,6 +163,7 @@ https://firebase.google.com/docs/reference/js/firestore_.md#getfirestore_cf608e1
 https://firebase.google.com/docs/reference/js/firestore_.md#doc_1eb4c23
 https://firebase.google.com/docs/reference/js/firestore_.md#getdocs_4e56953
 https://firebase.google.com/docs/reference/js/firestore_.md#setdoc_ee215ad
+https://firebase.google.com/docs/reference/js/v8/firebase.database.DataSnapshot#exists
 
 96. Finish Creating User Documents
 
