@@ -165,8 +165,8 @@ https://firebase.google.com/docs/reference/js/firestore_.md#getdocs_4e56953
 https://firebase.google.com/docs/reference/js/firestore_.md#setdoc_ee215ad
 https://firebase.google.com/docs/reference/js/v8/firebase.database.DataSnapshot#exists
 
-96. Finish Creating User Documents
-
+97. Sign In With Redirect
+https://firebase.google.com/docs/reference/js/v8/firebase.auth.Auth#getredirectresult
 
 
 
