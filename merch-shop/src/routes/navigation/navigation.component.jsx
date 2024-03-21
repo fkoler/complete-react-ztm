@@ -6,7 +6,6 @@ import { ReactComponent as UbuntuLogo } from '../../assets/ubuntu-logo.svg';
 import './navigation.styles.scss';
 
 const Navigation = () => {
-
     return (
         <Fragment>
             <div className='navigation'>
@@ -18,7 +17,7 @@ const Navigation = () => {
                         SHOP
                     </Link>
 
-                    <Link className='nav-link' to='/sign-in'>
+                    <Link className='nav-link' to='/auth'>
                         SIGN IN
                     </Link>
                 </div>

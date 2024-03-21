@@ -40,4 +40,4 @@
 
 -   State Normalization
 
-*   more
+*   \+ more
