@@ -6,20 +6,15 @@ import {
     signInWithPopup,
     signInWithRedirect,
 } from 'firebase/auth';
-import {
-    doc,
-    getDoc,
-    getFirestore,
-    setDoc,
-} from 'firebase/firestore';
+import { doc, getDoc, getFirestore, setDoc } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyArPY9yqk4LvgR0CpehXtyCDV0QElsuDGk",
-    authDomain: "merch-shop-db.firebaseapp.com",
-    projectId: "merch-shop-db",
-    storageBucket: "merch-shop-db.appspot.com",
-    messagingSenderId: "849042124800",
-    appId: "1:849042124800:web:1e6277cb08754d2b03e8e5",
+    apiKey: 'AIzaSyArPY9yqk4LvgR0CpehXtyCDV0QElsuDGk',
+    authDomain: 'merch-shop-db.firebaseapp.com',
+    projectId: 'merch-shop-db',
+    storageBucket: 'merch-shop-db.appspot.com',
+    messagingSenderId: '849042124800',
+    appId: '1:849042124800:web:1e6277cb08754d2b03e8e5',
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
@@ -39,7 +34,10 @@ export const signInWithGoogleRedirect = () =>
 
 export const db = getFirestore();
 
-export const createUserDocumentFromAuth = async (userAuth) => {
+export const createUserDocumentFromAuth = async (
+    userAuth,
+    additionalInformation = {}
+) => {
     if (!userAuth) return;
 
     const userDocRef = doc(db, 'users', userAuth.uid);
@@ -59,11 +57,12 @@ export const createUserDocumentFromAuth = async (userAuth) => {
                 displayName,
                 email,
                 createdAt,
+                ...additionalInformation,
             });
         } catch (err) {
             console.error('Error breating the user ', err.message);
         }
-    };
+    }
 
     return userDocRef;
 };
