@@ -171,8 +171,8 @@ https://firebase.google.com/docs/reference/js/v8/firebase.auth.Auth#getredirectr
 99. Sign Up Form Pt.2
 https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
 
-100. Sign Up With Email + Password
-
+104. Finishing Authentication Page
+https://firebase.google.com/docs/auth/admin/errors
 
 
 
