@@ -174,9 +174,9 @@ https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
 104. Finishing Authentication Page
 https://firebase.google.com/docs/auth/admin/errors
 
-
-
-
+105. Need For Context
+https://react.dev/reference/react/createContext
+https://react.dev/reference/react/useState
 
 
 
