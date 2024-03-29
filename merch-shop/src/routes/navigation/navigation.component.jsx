@@ -1,11 +1,15 @@
-import { Fragment } from 'react';
+import { Fragment, useContext } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 
 import { ReactComponent as UbuntuLogo } from '../../assets/ubuntu-logo.svg';
 
+import { UserContext } from '../../context/user.context';
 import './navigation.styles.scss';
 
 const Navigation = () => {
+    const { currentUser } = useContext(UserContext);
+    console.log(currentUser);
+
     return (
         <Fragment>
             <div className='navigation'>

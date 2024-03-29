@@ -1,7 +1,10 @@
 import { createContext, useState } from 'react';
 
 // as the actual value you want to access
-export const UserContext = createContext({});
+export const UserContext = createContext({
+    currentUser: null,
+    setCurrentUser: () => null,
+});
 
 export const UserPreovider = ({ children }) => {
     const [currentUser, setCurrentUser] = useState(null);
