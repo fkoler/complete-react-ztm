@@ -184,8 +184,8 @@ https://react.dev/reference/react/useContext
 107. Re-rendering From Context
 https://engineering.entelo.com/chromes-paint-flashing-tool-b5c880849635
 
-
-
+108. Signing Out
+https://firebase.google.com/docs/reference/js/auth.md#signout_2a61ea7
 
 
 
