@@ -181,7 +181,8 @@ https://react.dev/reference/react/useState
 106. User Context
 https://react.dev/reference/react/useContext
 
-
+107. Re-rendering From Context
+https://engineering.entelo.com/chromes-paint-flashing-tool-b5c880849635
 
 
 
