@@ -187,8 +187,8 @@ https://engineering.entelo.com/chromes-paint-flashing-tool-b5c880849635
 108. Signing Out
 https://firebase.google.com/docs/reference/js/auth.md#signout_2a61ea7
 
-
-
+110. Observer: onAuthStateChange
+https://firebase.google.com/docs/reference/js/v8/firebase.auth.Auth#onauthstatechanged
 
 
 
