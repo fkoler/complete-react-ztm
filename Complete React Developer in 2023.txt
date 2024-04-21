@@ -190,7 +190,7 @@ https://firebase.google.com/docs/reference/js/auth.md#signout_2a61ea7
 110. Observer: onAuthStateChange
 https://firebase.google.com/docs/reference/js/v8/firebase.auth.Auth#onauthstatechanged
 
-
+111. Finalizing Auth Listener
 
 
 
