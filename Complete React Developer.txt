@@ -193,7 +193,7 @@ https://firebase.google.com/docs/reference/js/v8/firebase.auth.Auth#onauthstatec
 115. Product Card Component
 https://css-tricks.com/snippets/css/complete-guide-grid/
 
-
+116. Cart Icon & Dropdown
 
 
 
