@@ -193,10 +193,12 @@ https://firebase.google.com/docs/reference/js/v8/firebase.auth.Auth#onauthstatec
 115. Product Card Component
 https://css-tricks.com/snippets/css/complete-guide-grid/
 
-116. Cart Icon & Dropdown
+120. Optional: reduce()
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+https://www.w3schools.com/jsref/jsref_reduce.asp
+https://www.freecodecamp.org/news/how-to-use-javascript-array-reduce-method/
 
-
-
+121. Cart Item Designs
 
 
 
