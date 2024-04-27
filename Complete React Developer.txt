@@ -201,9 +201,9 @@ https://www.freecodecamp.org/news/how-to-use-javascript-array-reduce-method/
 122. Creating Checkout Page
 https://reactrouter.com/en/main/hooks/use-navigate#usenavigate
 
-
-
-
+128. addCollectionAndDocuments Pt.1
+https://firebase.google.com/docs/firestore/data-model#collections
+https://firebase.google.com/docs/reference/kotlin/com/google/firebase/firestore/WriteBatch
 
 
 
