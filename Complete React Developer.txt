@@ -205,9 +205,9 @@ https://reactrouter.com/en/main/hooks/use-navigate#usenavigate
 https://firebase.google.com/docs/firestore/data-model#collections
 https://firebase.google.com/docs/reference/kotlin/com/google/firebase/firestore/WriteBatch
 
-
-
-
+129. addCollectionAndDocuments Pt.2
+https://firebase.google.com/docs/reference/kotlin/com/google/firebase/firestore/WriteBatch#set(com.google.firebase.firestore.DocumentReference,java.lang.Object)
+https://firebase.google.com/docs/reference/kotlin/com/google/firebase/firestore/WriteBatch#commit()
 
 
 
