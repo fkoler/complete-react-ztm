@@ -219,7 +219,7 @@ https://www.kirupa.com/html5/hashtables_vs_arrays.htm
 132. Using Our CategoriesMap
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
 
-
+133. Category Preview Component
 
 
 
