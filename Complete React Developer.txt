@@ -222,8 +222,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 137. Introducing Styled-Components
 https://styled-components.com/
 
-139. Styled-Component - Cart Dropdown
-
+140. Styled-Component - Directory Item & Cart Icon
+$imageUrl={imageUrl}
 
 
 

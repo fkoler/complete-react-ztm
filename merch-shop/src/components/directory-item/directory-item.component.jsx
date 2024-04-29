@@ -1,24 +1,22 @@
-import './directory-item.styles.scss';
+import {
+    BackgroundImage,
+    DirectoryBodyContainer,
+    DirectoryItemContainer,
+} from './directory-item.styles';
 
 const DirectoryItem = ({ category }) => {
     const { imageUrl, title } = category;
 
     return (
-        <div className='directory-item-container'>
-            <div
-                className='background-image'
-                alt={title}
-                style={{
-                    backgroundImage: `url(${imageUrl})`,
-                }}
-            ></div>
+        <DirectoryItemContainer>
+            <BackgroundImage alt={title} $imageUrl={imageUrl} />
 
-            <div className='directory-body-container'>
+            <DirectoryBodyContainer>
                 <h2>{title}</h2>
 
                 <p>Shop Now</p>
-            </div>
-        </div>
+            </DirectoryBodyContainer>
+        </DirectoryItemContainer>
     );
 };
 
