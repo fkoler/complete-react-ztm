@@ -225,9 +225,9 @@ https://styled-components.com/
 140. Styled-Component - Directory Item & Cart Icon
 $imageUrl={imageUrl}
 
-
-
-
+141. Styled-Component - Form Input Component
+https://styled-components.com/docs/api#css
+${({ $shrink }) => $shrink && shrinkLabelStyles}
 
 
 
