@@ -229,12 +229,13 @@ $imageUrl={imageUrl}
 https://styled-components.com/docs/api#css
 ${({ $shrink }) => $shrink && shrinkLabelStyles}
 
+143. Deploying On Netlify
+https://www.netlify.com/
+CI=yarn-build
 
-
-
-
-
-
+144. Adding Redirects For Netlify
+_redirects
+/* /index.html 200
 
 
 
