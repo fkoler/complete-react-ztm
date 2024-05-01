@@ -141,6 +141,8 @@ https://reactrouter.com/en/main/components/link#link
 https://firebase.google.com/
 yarn add firebase
 
+gcloud auth login
+
 90. Authentication Flow
 https://firebase.google.com/docs/auth/web/google-signin
 
@@ -240,7 +242,7 @@ _redirects
 146. User Reducer
 https://react.dev/reference/react/useReducer
 
-
+147. Cart Reducer Pt. 1
 
 
 
