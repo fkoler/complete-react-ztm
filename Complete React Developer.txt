@@ -242,20 +242,20 @@ _redirects
 146. User Reducer
 https://react.dev/reference/react/useReducer
 
-149. Cart Reducer Pt. 3
+150. Redux Toolkit Aside
+https://redux.js.org/
+https://react-redux.js.org/
+https://redux-toolkit.js.org/
 
+153. React-Redux: Installation
+https://github.com/reduxjs/redux
+https://github.com/reduxjs/react-redux
+https://github.com/LogRocket/redux-logger
 
-
-
-
-
-
-
-
-
-
-
-
+https://redux.js.org/api/applymiddleware
+https://redux.js.org/api/compose
+https://redux.js.org/api/createstore
+https://redux.js.org/api/combinereducers
 
 
 
