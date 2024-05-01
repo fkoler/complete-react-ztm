@@ -242,7 +242,7 @@ _redirects
 146. User Reducer
 https://react.dev/reference/react/useReducer
 
-147. Cart Reducer Pt. 1
+148. Cart Reducer Pt. 2
 
 
 
