@@ -266,7 +266,7 @@ https://react-redux.js.org/api/hooks#usedispatch
 156. React-Redux: Selectors
 https://react-redux.js.org/api/hooks#useselector
 
-
+157. Categories Reducer
 
 
 
