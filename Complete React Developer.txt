@@ -257,8 +257,8 @@ https://redux.js.org/api/compose
 https://redux.js.org/api/createstore
 https://redux.js.org/api/combinereducers
 
-
-
+154. React-Redux: Setting Up Our Store
+https://redux.js.org/tutorials/fundamentals/part-5-ui-react#passing-the-store-with-provider
 
 
 
