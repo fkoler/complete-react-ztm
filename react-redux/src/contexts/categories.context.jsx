@@ -1,3 +1,4 @@
+/*
 import { createContext, useEffect, useState } from 'react';
 
 import { getCategoriesAndDocuments } from '../utils/firebase/firebase.utils';
@@ -34,3 +35,4 @@ export const CategoriesProvider = ({ children }) => {
         </CategoriesContext.Provider>
     );
 };
+*/
