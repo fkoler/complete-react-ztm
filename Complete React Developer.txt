@@ -266,14 +266,14 @@ https://react-redux.js.org/api/hooks#usedispatch
 156. React-Redux: Selectors
 https://react-redux.js.org/api/hooks#useselector
 
-161. Demystifying Middleware
+163. Optional: Memoization
+https://www.geeksforgeeks.org/javascript-memoization/
+https://designtechworld.medium.com/memoization-in-javascript-282d5fad29c8
 
-
-
-
-
-
-
+164. Reselect Library
+https://github.com/reduxjs/reselect
+https://reselect.js.org/
+https://reselect.js.org/api/createselector/
 
 
 
