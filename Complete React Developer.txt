@@ -275,8 +275,8 @@ https://github.com/reduxjs/reselect
 https://reselect.js.org/
 https://reselect.js.org/api/createselector/
 
-167. Migrating Cart Context to Redux Pt. 3
-
+168. Migrate Cart Context to Redux Pt. 4
+https://www.npmjs.com/package/redux-persist
 
 
 
