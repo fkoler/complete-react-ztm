@@ -281,8 +281,8 @@ https://www.npmjs.com/package/redux-persist
 169. Redux-Persist
 https://github.com/rt2zz/redux-persist?tab=readme-ov-file#basic-usage
 
-
-
+170. Redux-Devtools
+https://chromewebstore.google.com/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
 
 
 
