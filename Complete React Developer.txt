@@ -287,8 +287,8 @@ https://chromewebstore.google.com/detail/redux-devtools/lmhkpmbekcpmknklioeibfkp
 171. Asynchronous Redux: Redux-Thunk
 https://github.com/reduxjs/redux-thunk?tab=readme-ov-file#redux-thunk
 
-
-
+172. Redux-Thunk Pt. 2
+https://www.npmjs.com/package/redux-thunk
 
 
 
