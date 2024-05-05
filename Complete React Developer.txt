@@ -284,8 +284,8 @@ https://github.com/rt2zz/redux-persist?tab=readme-ov-file#basic-usage
 170. Redux-Devtools
 https://chromewebstore.google.com/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
 
-
-
+171. Asynchronous Redux: Redux-Thunk
+https://github.com/reduxjs/redux-thunk?tab=readme-ov-file#redux-thunk
 
 
 
