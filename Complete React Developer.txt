@@ -278,8 +278,8 @@ https://reselect.js.org/api/createselector/
 168. Migrate Cart Context to Redux Pt. 4
 https://www.npmjs.com/package/redux-persist
 
-
-
+169. Redux-Persist
+https://github.com/rt2zz/redux-persist?tab=readme-ov-file#basic-usage
 
 
 
