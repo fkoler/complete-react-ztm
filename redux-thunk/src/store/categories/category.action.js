@@ -13,8 +13,8 @@ const fetchCategioriesSuccess = (categoriesArray) =>
         categoriesArray
     );
 
-const fetchCategioriesFailed = (error) =>
-    createAction(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_FAILED, error);
+const fetchCategioriesFailed = (err) =>
+    createAction(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_FAILED, err);
 
 export const fetchCategioriesAsync = () => async (dispatch) => {
     dispatch(fetchCategioriesStart());
