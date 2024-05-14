@@ -290,13 +290,8 @@ https://github.com/reduxjs/redux-thunk?tab=readme-ov-file#redux-thunk
 172. Redux-Thunk Pt. 2
 https://www.npmjs.com/package/redux-thunk
 
-173. Redux-Thunk Pt. 3
-
-
-
-
-
-
+174. Asynchronous Redux: Redux-Saga
+https://github.com/redux-saga/redux-saga
 
 
 
