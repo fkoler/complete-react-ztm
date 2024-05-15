@@ -293,11 +293,11 @@ https://www.npmjs.com/package/redux-thunk
 174. Asynchronous Redux: Redux-Saga
 https://github.com/redux-saga/redux-saga
 
+175. Generator Functions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield
 
-
-
-
-
+176. Redux-Saga: fetchCategoriesAsync Thunk to Saga
 
 
 
