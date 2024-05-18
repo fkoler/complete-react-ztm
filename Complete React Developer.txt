@@ -297,7 +297,7 @@ https://github.com/redux-saga/redux-saga
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield
 
-178. Redux-Saga: Check User Session Saga Pt. 1
+179. Redux-Saga: Check User Session Saga Pt. 2
 
 
 
