@@ -2,7 +2,7 @@ import { USER_ACTION_TYPES } from './user.types';
 import { createAction } from '../../utils/reducer/reducer.utils';
 
 export const setCurrentUser = (user) => {
-    return createAction(USER_ACTION_TYPES.SET_CURRENT_USER, user);
+    createAction(USER_ACTION_TYPES.SET_CURRENT_USER, user);
 };
 
 export const checkUserSession = () =>
@@ -38,3 +38,12 @@ export const signUpSuccess = (user, additionalDetails) => {
 export const signUpFailed = (err) => {
     createAction(USER_ACTION_TYPES.SIGN_UP_FAILED, err);
 };
+
+export const signOutStart = () =>
+    createAction(USER_ACTION_TYPES.SIGN_OUT_START);
+
+export const signOutSuccess = () =>
+    createAction(USER_ACTION_TYPES.SIGN_OUT_SUCCESS);
+
+export const signOutFailed = (err) =>
+    createAction(USER_ACTION_TYPES.SIGN_OUT_FAILED, err);
