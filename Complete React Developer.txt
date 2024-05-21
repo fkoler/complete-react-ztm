@@ -300,8 +300,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yiel
 183. Redux Toolkit Intro
 https://redux-toolkit.js.org/
 
-
-
+184. Using createSlice
+https://redux-toolkit.js.org/usage/usage-guide#simplifying-slices-with-createslice
 
 
 
