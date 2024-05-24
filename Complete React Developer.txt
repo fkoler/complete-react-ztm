@@ -306,7 +306,7 @@ https://redux-toolkit.js.org/usage/usage-guide#simplifying-slices-with-createsli
 187. Immutable Middleware
 https://redux.js.org/tutorials/fundamentals/part-5-ui-react#reading-state-from-the-store-with-useselector
 
-188. Categories to createSlice
+189. Cart to createSlice
 
 
 
