@@ -303,12 +303,10 @@ https://redux-toolkit.js.org/
 184. Using createSlice
 https://redux-toolkit.js.org/usage/usage-guide#simplifying-slices-with-createslice
 
-186. Non Serializable Value Middleware
+187. Immutable Middleware
+https://redux.js.org/tutorials/fundamentals/part-5-ui-react#reading-state-from-the-store-with-useselector
 
-
-
-
-
+188. Categories to createSlice
 
 
 
