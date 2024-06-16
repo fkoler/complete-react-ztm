@@ -306,12 +306,12 @@ https://redux-toolkit.js.org/usage/usage-guide#simplifying-slices-with-createsli
 187. Immutable Middleware
 https://redux.js.org/tutorials/fundamentals/part-5-ui-react#reading-state-from-the-store-with-useselector
 
-189. Cart to createSlice
+192. Setting up Stripe
+https://stripe.com/en-ca
+https://www.npmjs.com/package/@stripe/stripe-js
+https://www.npmjs.com/package/@stripe/react-stripe-js
 
-
-
-
-
+193. Setting Up Our PaymentForm
 
 
 
