@@ -311,7 +311,7 @@ https://stripe.com/en-ca
 https://www.npmjs.com/package/@stripe/stripe-js
 https://www.npmjs.com/package/@stripe/react-stripe-js
 
-193. Setting Up Our PaymentForm
+194. Writing Our First Serverless Function
 
 
 
