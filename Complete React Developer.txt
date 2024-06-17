@@ -315,9 +315,10 @@ https://www.npmjs.com/package/@stripe/react-stripe-js
 https://www.npmjs.com/package/stripe
 https://www.npmjs.com/package/dotenv
 
-
-
-
+195. Finishing Stripe Payment
+https://www.npmjs.com/package/netlify-cli
+https://docs.stripe.com/testing#cards
+https://docs.stripe.com/stripe-js/react#available-element-components
 
 
 
