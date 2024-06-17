@@ -312,8 +312,8 @@ https://www.npmjs.com/package/@stripe/stripe-js
 https://www.npmjs.com/package/@stripe/react-stripe-js
 
 194. Writing Our First Serverless Function
-
-
+https://www.npmjs.com/package/stripe
+https://www.npmjs.com/package/dotenv
 
 
 
