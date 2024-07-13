@@ -324,7 +324,7 @@ https://docs.stripe.com/stripe-js/react#available-element-components
 https://www.typescriptlang.org/
 
 200. Starting our Typing
-
+https://create-react-app.dev/docs/adding-typescript
 
 
 
