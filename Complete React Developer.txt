@@ -327,10 +327,9 @@ https://www.typescriptlang.org/
 https://create-react-app.dev/docs/adding-typescript
 
 202. Typescript Types & Third Party Library Types
+https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events/#list-of-event-types
 
-
-
-
+203. ChangeEvent Type From React
 
 
 
