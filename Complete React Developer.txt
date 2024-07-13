@@ -320,10 +320,10 @@ https://www.npmjs.com/package/netlify-cli
 https://docs.stripe.com/testing#cards
 https://docs.stripe.com/stripe-js/react#available-element-components
 
+199. Typescript Introduction
+https://www.typescriptlang.org/
 
-
-
-
+200. Starting our Typing
 
 
 
