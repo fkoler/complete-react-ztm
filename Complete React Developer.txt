@@ -335,8 +335,8 @@ https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-types
 205. Typing React's setState
 https://www.typescriptlang.org/docs/handbook/type-compatibility.html#any-unknown-object-void-undefined-null-and-never-assignability
 
-
-
+207. Typing createAction & Function Overloading
+https://redux.js.org/usage/migrations/migrating-rtk-2#anyaction-deprecated-in-favour-of-unknownaction
 
 
 
