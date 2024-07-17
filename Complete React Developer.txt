@@ -341,7 +341,7 @@ https://redux.js.org/usage/migrations/migrating-rtk-2#anyaction-deprecated-in-fa
 212. Intersections & Return Types
 https://www.typescriptlang.org/docs/handbook/utility-types.html#returntypetype
 
-
+218. Typing User Actions
 
 
 
