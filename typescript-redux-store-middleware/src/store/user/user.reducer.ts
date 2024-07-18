@@ -22,7 +22,10 @@ const INITIAL_STATE: UserState = {
     error: null,
 };
 
-export const userReducer = (state = INITIAL_STATE, action: AnyAction) => {
+export const userReducer = (
+    state = INITIAL_STATE,
+    action = {} as AnyAction
+) => {
     if (signInSuccess.match(action)) {
         return { ...state, currentUser: action.payload };
     }
@@ -32,9 +35,9 @@ export const userReducer = (state = INITIAL_STATE, action: AnyAction) => {
     }
 
     if (
-        signUpFailed.match(action) ||
+        signOutFailed.match(action) ||
         signInFailed.match(action) ||
-        signOutFailed.match(action)
+        signUpFailed.match(action)
     ) {
         return { ...state, error: action.payload };
     }
