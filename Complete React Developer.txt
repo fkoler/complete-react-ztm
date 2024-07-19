@@ -352,7 +352,7 @@ yarn add --dev babel-plugin-macros
 226. Typing Button Component
 yarn add @types/styled-components
 
-
+227. Typing Input & Form Components
 
 
 
