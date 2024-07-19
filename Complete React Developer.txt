@@ -344,10 +344,10 @@ https://www.typescriptlang.org/docs/handbook/utility-types.html#returntypetype
 221. Typing Third Party Libraries
 yarn add @types/redux-logger
 
-
-
-
-
+223. Typing Categories Saga
+yarn add typed-redux-saga
+yarn add --dev babel-plugin-macros
+"downlevelIteration": true
 
 
 
