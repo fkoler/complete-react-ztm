@@ -349,8 +349,8 @@ yarn add typed-redux-saga
 yarn add --dev babel-plugin-macros
 "downlevelIteration": true
 
-225. Typing User Sagas Pt. 2
-
+226. Typing Button Component
+yarn add @types/styled-components
 
 
 
