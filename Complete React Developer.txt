@@ -355,7 +355,7 @@ yarn add @types/styled-components
 228. Typing SVG Imports
 https://developer.mozilla.org/en-US/docs/Web/API/SVGSVGElement
 
-
+229. Typing Our Payment Form
 
 
 
