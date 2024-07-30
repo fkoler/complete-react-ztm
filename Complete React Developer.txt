@@ -355,10 +355,10 @@ yarn add @types/styled-components
 228. Typing SVG Imports
 https://developer.mozilla.org/en-US/docs/Web/API/SVGSVGElement
 
-229. Typing Our Payment Form
+230. GraphQL Explained
+https://graphql.org/
 
-
-
+231. Starting Repo + GraphQL Playground
 
 
 
