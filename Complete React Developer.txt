@@ -361,7 +361,7 @@ https://graphql.org/
 231. Starting Repo + GraphQL Playground
 https://www.apollographql.com/docs/react/
 
-233. Categories Query
+234. Updating Components To Consume GraphQL Values
 
 
 
