@@ -361,7 +361,7 @@ https://graphql.org/
 231. Starting Repo + GraphQL Playground
 https://www.apollographql.com/docs/react/
 
-232. Graphql Queries
+233. Categories Query
 
 
 
