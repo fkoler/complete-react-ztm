@@ -364,8 +364,7 @@ https://www.apollographql.com/docs/react/
 236. Mutations
 https://www.apollographql.com/docs/react/data/mutations/
 
-237. Apollo vs Redux
-
+238. Do Not Optimize For Performance Until You Need It
 
 
 
