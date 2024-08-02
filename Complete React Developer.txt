@@ -361,7 +361,7 @@ https://graphql.org/
 231. Starting Repo + GraphQL Playground
 https://www.apollographql.com/docs/react/
 
-234. Updating Components To Consume GraphQL Values
+235. Variables in useQuery & Caching
 
 
 
