@@ -1,6 +1,6 @@
 import { useEffect, Fragment, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { gql, useQuery } from '@apollo/client';
+import { gql, useMutation, useQuery } from '@apollo/client';
 
 import ProductCard from '../../components/product-card/product-card.component';
 import Spinner from '../../components/spinner/spinner.component';
@@ -22,11 +22,30 @@ const GET_CATEGORY = gql`
     }
 `;
 
+const SET_CATEGORY = gql`
+    mutation ($category: Category) {
+        addCategory(category: $category) {
+            id
+            items {
+                id
+                name
+                price
+                imageUrl
+            }
+        }
+    }
+`;
+
 const Category = () => {
     const { category } = useParams();
-    const { loading, error, data } = useQuery(GET_CATEGORY, {
-        variables: { title: category },
-    });
+    // const { loading, error, data } = useQuery(GET_CATEGORY, {
+    //     variables: { title: category },
+    // });
+
+    const [addCategory, { loading, error, data }] = useMutation(SET_CATEGORY);
+
+    addCategory({ variables: { category: categoryObject } });
+
     const [products, setProducts] = useState([]);
 
     useEffect(() => {

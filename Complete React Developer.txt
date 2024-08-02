@@ -361,8 +361,8 @@ https://graphql.org/
 231. Starting Repo + GraphQL Playground
 https://www.apollographql.com/docs/react/
 
-235. Variables in useQuery & Caching
-
+236. Mutations
+https://www.apollographql.com/docs/react/data/mutations/
 
 
 
