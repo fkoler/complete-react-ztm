@@ -377,8 +377,25 @@ https://react.dev/reference/react/memo
 https://react.dev/reference/react/lazy
 https://react.dev/referenchttps://react.dev/reference/react/lazye/react/Suspense
 
+244. Firebase Firestore Security Rules
+rules_version = '2';
 
-
+service cloud.firestore {
+  match /databases/{database}/documents {
+  	match /users/{userId} {
+    	allow read, get, create;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    match /categories/{category} {
+    	allow read;
+    }
+  
+    match /{document=**} {
+      allow read;
+    }
+  }
+}
 
 
 
