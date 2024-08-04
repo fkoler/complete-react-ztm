@@ -1,4 +1,8 @@
-import { useCallback, useState } from 'react';
+import {
+    // useCallback,
+    useMemo,
+    useState,
+} from 'react';
 
 import { useSelector } from 'react-redux';
 // import { useNavigate } from 'react-router-dom';
@@ -9,33 +13,51 @@ import { selectCartItems } from '../../store/cart/cart.selector';
 
 import {
     CartDropdownContainer,
-    EmptyMessage,
+    // EmptyMessage,
     CartItems,
 } from './cart-dropdown.styles';
+
+const sleep = (milliseconds) => {
+    const start = new Date().getTime();
+
+    for (let i = 0; i < 1e7; i++) {
+        if (new Date().getTime() - start > milliseconds) break;
+    }
+};
 
 const CartDropdown = () => {
     const cartItems = useSelector(selectCartItems);
     // const navigate = useNavigate();
-    const [temp, setTemp] = useState('A');
+    const [count, setCount] = useState(0);
 
-    const goToCheckoutHandler = useCallback(() => {
-        // navigate('/checkout');
-        console.log(temp);
-    }, [temp]);
+    const hundredCount = useMemo(() => {
+        console.log('START');
+        sleep(2000);
+        console.log('END');
+
+        return 100 + count;
+    }, [count]);
+
+    // const value = hundredCount();
+
+    // const goToCheckoutHandler = useCallback(() => {
+    //     navigate('/checkout');
+    // }, [navigate]);
 
     return (
         <CartDropdownContainer>
             <CartItems>
-                {cartItems.length ? (
+                {hundredCount}
+
+                {/* {cartItems.length ? (
                     cartItems.map((item) => (
                         <CartItem key={item.id} cartItem={item} />
                     ))
                 ) : (
                     <EmptyMessage>Your cart is empty</EmptyMessage>
-                )}
+                )} */}
             </CartItems>
-            <Button onClick={goToCheckoutHandler}>GO TO CHECKOUT</Button>
-            <Button onClick={() => setTemp('B')}>UPDATE</Button>
+            <Button onClick={() => setCount(count + 1)}>START</Button>
         </CartDropdownContainer>
     );
 };
