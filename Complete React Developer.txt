@@ -370,8 +370,8 @@ https://react.dev/reference/react/useCallback
 241. Hooks: useMemo
 https://react.dev/reference/react/useMemo
 
-
-
+242. React Devtools Profiling & React Memo
+https://react.dev/reference/react/memo
 
 
 
