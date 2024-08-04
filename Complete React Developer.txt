@@ -373,9 +373,9 @@ https://react.dev/reference/react/useMemo
 242. React Devtools Profiling & React Memo
 https://react.dev/reference/react/memo
 
-
-
-
+243. Code Splitting, Dynamic Imports, Suspense & Lazy
+https://react.dev/reference/react/lazy
+https://react.dev/referenchttps://react.dev/reference/react/lazye/react/Suspense
 
 
 
