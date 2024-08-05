@@ -416,7 +416,9 @@ https://hnpwa.com/
 https://letsencrypt.org/
 https://www.cloudflare.com/
 
-
+259. Resources: PWA - HTTPS
+https://pages.github.com/
+https://web.dev/articles/pwa-checklist
 
 
 
