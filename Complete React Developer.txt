@@ -397,17 +397,20 @@ service cloud.firestore {
   }
 }
 
+254. Progressive Web Apps
+https://developer.chrome.com/docs/lighthouse
 
+255. Opt-In Service Worker in CRA
+https://create-react-app.dev/docs/making-a-progressive-web-app/
 
+256. Resources: Progressive Web Apps
+https://debuggerdotbreak.judahgabriel.com/2018/04/13/i-built-a-pwa-and-published-it-in-3-app-stores-heres-what-i-learned/
+https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7
+https://appsco.pe/
 
-
-
-
-
-
-
-
-
+257. Progressive Web Apps Examples
+https://pokedex.org/
+https://hnpwa.com/
 
 
 
