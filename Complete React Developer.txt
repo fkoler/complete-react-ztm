@@ -420,8 +420,8 @@ https://www.cloudflare.com/
 https://pages.github.com/
 https://web.dev/articles/pwa-checklist
 
-
-
+260. PWA - App Manifest
+https://realfavicongenerator.net/
 
 
 
