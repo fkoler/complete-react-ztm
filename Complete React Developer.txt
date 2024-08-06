@@ -423,8 +423,8 @@ https://web.dev/articles/pwa-checklist
 260. PWA - App Manifest
 https://realfavicongenerator.net/
 
-
-
+261. PWA - Service Workers
+https://jakearchibald.github.io/isserviceworkerready/
 
 
 
