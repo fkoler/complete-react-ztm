@@ -426,9 +426,9 @@ https://realfavicongenerator.net/
 261. PWA - Service Workers
 https://jakearchibald.github.io/isserviceworkerready/
 
-
-
-
+262. Resources: PWA - Service Workers
+https://github.com/jeffposnick/create-react-pwa/compare/starting-point...pwa
+https://auth0.com/blog/introduction-to-progressive-web-apps-push-notifications-part-3/
 
 
 
