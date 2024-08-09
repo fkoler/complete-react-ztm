@@ -431,9 +431,10 @@ https://github.com/jeffposnick/create-react-pwa/compare/starting-point...pwa
 https://auth0.com/blog/introduction-to-progressive-web-apps-push-notifications-part-3/
 
 265. PWA - Our Application
-
-
-
+npx create-react-app progressive-web-test-app --template cra-template-pwa-typescript
+yarn build
+yarn global add serve
+npx serve -s build
 
 
 
