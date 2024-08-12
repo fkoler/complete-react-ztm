@@ -436,7 +436,7 @@ yarn build
 yarn global add serve
 npx serve -s build
 
-266. Global Styles and Media Queries
+267. Remaining Mobile Styles
 
 
 
