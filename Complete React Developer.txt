@@ -444,17 +444,17 @@ https://en.wikipedia.org/wiki/Unit_testing
 https://en.wikipedia.org/wiki/Integration_testing
 https://en.wikipedia.org/wiki/Test_automation
 
-
-
-
-
-
-
-
-
-
-
-
+272. Testing Libraries
+https://jasmine.github.io/
+https://jestjs.io/
+https://mochajs.org/
+https://www.chaijs.com/
+https://karma-runner.github.io/latest/index.html
+https://sinonjs.org/
+https://istanbul.js.org/
+https://github.com/avajs/ava
+https://github.com/tape-testing/tape
+https://enzymejs.github.io/enzyme/
 
 
 
