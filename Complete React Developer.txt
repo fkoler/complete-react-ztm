@@ -456,12 +456,12 @@ https://github.com/avajs/ava
 https://github.com/tape-testing/tape
 https://enzymejs.github.io/enzyme/
 
-
-
-
-
-
-
+276. Automation Testing
+https://nightwatchjs.org/
+https://webdriver.io/
+https://testcafe.io/
+https://github.com/segment-boneyard/nightmare
+https://www.cypress.io/
 
 
 
