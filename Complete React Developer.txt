@@ -466,7 +466,8 @@ https://www.cypress.io/
 282. Asynchronous Tests
 https://www.npmjs.com/package/node-fetch
 
-
+284. Resources: Jest Cheat Sheet
+https://github.com/sapegin/jest-cheat-sheet
 
 
 
