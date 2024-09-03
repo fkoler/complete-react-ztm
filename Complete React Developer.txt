@@ -469,8 +469,8 @@ https://www.npmjs.com/package/node-fetch
 284. Resources: Jest Cheat Sheet
 https://github.com/sapegin/jest-cheat-sheet
 
-
-
+287. Enzyme vs React Testing Library
+https://stackoverflow.com/questions/54419342/jest-enzyme-shallowwrapper-is-empty-when-creating-snapshot
 
 
 
