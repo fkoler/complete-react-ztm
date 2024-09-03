@@ -472,11 +472,11 @@ https://github.com/sapegin/jest-cheat-sheet
 287. Enzyme vs React Testing Library
 https://stackoverflow.com/questions/54419342/jest-enzyme-shallowwrapper-is-empty-when-creating-snapshot
 
+289. Resources: Enzyme
+https://enzymejs.github.io/enzyme/docs/api/
 
-
-
-
-
+290. Quick Note: Empty Snapshots
+https://stackoverflow.com/questions/54419342/jest-enzyme-shallowwrapper-is-empty-when-creating-snapshot
 
 
 
