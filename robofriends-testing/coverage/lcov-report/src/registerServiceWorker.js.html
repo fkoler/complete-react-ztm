@@ -171,7 +171,10 @@
 <a name='L106'></a><a href='#L106'>106</a>
 <a name='L107'></a><a href='#L107'>107</a>
 <a name='L108'></a><a href='#L108'>108</a>
-<a name='L109'></a><a href='#L109'>109</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L109'></a><a href='#L109'>109</a>
+<a name='L110'></a><a href='#L110'>110</a>
+<a name='L111'></a><a href='#L111'>111</a>
+<a name='L112'></a><a href='#L112'>112</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -234,11 +237,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -247,10 +245,18 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -290,102 +296,105 @@
 // This link also includes instructions on opting out of this behavior.
 &nbsp;
 const isLocalhost = <span class="cstat-no" title="statement not covered" >Boolean(</span>
-  window.location.hostname === 'localhost' ||
-    // [::1] is the IPv6 localhost address.
-    window.location.hostname === '[::1]' ||
-    // 127.0.0.1/8 is considered localhost for IPv4.
-    window.location.hostname.match(
-      /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
-    )
+    window.location.hostname === 'localhost' ||
+        // [::1] is the IPv6 localhost address.
+        window.location.hostname === '[::1]' ||
+        // 127.0.0.1/8 is considered localhost for IPv4.
+        window.location.hostname.match(
+            /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
+        )
 );
 &nbsp;
 export default function <span class="fstat-no" title="function not covered" >register(</span>) {
-<span class="cstat-no" title="statement not covered" >  if (process.env.NODE_ENV === 'production' &amp;&amp; 'serviceWorker' in navigator) {</span>
-    // The URL constructor is available in all browsers that support SW.
-    const publicUrl = <span class="cstat-no" title="statement not covered" >new URL(process.env.PUBLIC_URL, window.location);</span>
-<span class="cstat-no" title="statement not covered" >    if (publicUrl.origin !== window.location.origin) {</span>
-      // Our service worker won't work if PUBLIC_URL is on a different origin
-      // from what our page is served on. This might happen if a CDN is used to
-      // serve assets; see https://github.com/facebookincubator/create-react-app/issues/2374
-<span class="cstat-no" title="statement not covered" >      return;</span>
+<span class="cstat-no" title="statement not covered" >    if (process.env.NODE_ENV === 'production' &amp;&amp; 'serviceWorker' in navigator) {</span>
+        // The URL constructor is available in all browsers that support SW.
+        const publicUrl = <span class="cstat-no" title="statement not covered" >new URL(process.env.PUBLIC_URL, window.location);</span>
+<span class="cstat-no" title="statement not covered" >        if (publicUrl.origin !== window.location.origin) {</span>
+            // Our service worker won't work if PUBLIC_URL is on a different origin
+            // from what our page is served on. This might happen if a CDN is used to
+            // serve assets; see https://github.com/facebookincubator/create-react-app/issues/2374
+<span class="cstat-no" title="statement not covered" >            return;</span>
+        }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        window.addEventListener('load', <span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
+            const swUrl = <span class="cstat-no" title="statement not covered" >`${process.env.PUBLIC_URL}/service-worker.js`;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >            if (isLocalhost) {</span>
+                // This is running on localhost. Lets check if a service worker still exists or not.
+<span class="cstat-no" title="statement not covered" >                checkValidServiceWorker(swUrl);</span>
+            } else {
+                // Is not local host. Just register service worker
+<span class="cstat-no" title="statement not covered" >                registerValidSW(swUrl);</span>
+            }
+        });
     }
-&nbsp;
-<span class="cstat-no" title="statement not covered" >    window.addEventListener('load', <span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
-      const swUrl = <span class="cstat-no" title="statement not covered" >`${process.env.PUBLIC_URL}/service-worker.js`;</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >      if (isLocalhost) {</span>
-        // This is running on localhost. Lets check if a service worker still exists or not.
-<span class="cstat-no" title="statement not covered" >        checkValidServiceWorker(swUrl);</span>
-      } else {
-        // Is not local host. Just register service worker
-<span class="cstat-no" title="statement not covered" >        registerValidSW(swUrl);</span>
-      }
-    });
-  }
 }
 &nbsp;
 function <span class="fstat-no" title="function not covered" >registerValidSW(</span>swUrl) {
-<span class="cstat-no" title="statement not covered" >  navigator.serviceWorker</span>
-    .register(swUrl)
-    .then(<span class="fstat-no" title="function not covered" >re</span>gistration =&gt; {
-<span class="cstat-no" title="statement not covered" >      registration.onupdatefound = <span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
-        const installingWorker = <span class="cstat-no" title="statement not covered" >registration.installing;</span>
-<span class="cstat-no" title="statement not covered" >        installingWorker.onstatechange = <span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >          if (installingWorker.state === 'installed') {</span>
-<span class="cstat-no" title="statement not covered" >            if (navigator.serviceWorker.controller) {</span>
-              // At this point, the old content will have been purged and
-              // the fresh content will have been added to the cache.
-              // It's the perfect time to display a "New content is
-              // available; please refresh." message in your web app.
-<span class="cstat-no" title="statement not covered" >              console.log('New content is available; please refresh.');</span>
-            } else {
-              // At this point, everything has been precached.
-              // It's the perfect time to display a
-              // "Content is cached for offline use." message.
-<span class="cstat-no" title="statement not covered" >              console.log('Content is cached for offline use.');</span>
-            }
-          }
-        };
-      };
-    })
-    .catch(<span class="fstat-no" title="function not covered" >er</span>ror =&gt; {
-<span class="cstat-no" title="statement not covered" >      console.error('Error during service worker registration:', error);</span>
-    });
+<span class="cstat-no" title="statement not covered" >    navigator.serviceWorker</span>
+        .register(swUrl)
+        .then(<span class="fstat-no" title="function not covered" >(r</span>egistration) =&gt; {
+<span class="cstat-no" title="statement not covered" >            registration.onupdatefound = <span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
+                const installingWorker = <span class="cstat-no" title="statement not covered" >registration.installing;</span>
+<span class="cstat-no" title="statement not covered" >                installingWorker.onstatechange = <span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >                    if (installingWorker.state === 'installed') {</span>
+<span class="cstat-no" title="statement not covered" >                        if (navigator.serviceWorker.controller) {</span>
+                            // At this point, the old content will have been purged and
+                            // the fresh content will have been added to the cache.
+                            // It's the perfect time to display a "New content is
+                            // available; please refresh." message in your web app.
+<span class="cstat-no" title="statement not covered" >                            console.log(</span>
+                                'New content is available; please refresh.'
+                            );
+                        } else {
+                            // At this point, everything has been precached.
+                            // It's the perfect time to display a
+                            // "Content is cached for offline use." message.
+<span class="cstat-no" title="statement not covered" >                            console.log('Content is cached for offline use.');</span>
+                        }
+                    }
+                };
+            };
+        })
+        .catch(<span class="fstat-no" title="function not covered" >(e</span>rror) =&gt; {
+<span class="cstat-no" title="statement not covered" >            console.error('Error during service worker registration:', error);</span>
+        });
 }
 &nbsp;
 function <span class="fstat-no" title="function not covered" >checkValidServiceWorker(</span>swUrl) {
-  // Check if the service worker can be found. If it can't reload the page.
-<span class="cstat-no" title="statement not covered" >  fetch(swUrl)</span>
-    .then(<span class="fstat-no" title="function not covered" >re</span>sponse =&gt; {
-      // Ensure service worker exists, and that we really are getting a JS file.
-<span class="cstat-no" title="statement not covered" >      if (</span>
-        response.status === 404 ||
-        response.headers.get('content-type').indexOf('javascript') === -1
-      ) {
-        // No service worker found. Probably a different app. Reload the page.
-<span class="cstat-no" title="statement not covered" >        navigator.serviceWorker.ready.then(<span class="fstat-no" title="function not covered" >re</span>gistration =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >          registration.unregister().then(<span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >            window.location.reload();</span>
-          });
+    // Check if the service worker can be found. If it can't reload the page.
+<span class="cstat-no" title="statement not covered" >    fetch(swUrl)</span>
+        .then(<span class="fstat-no" title="function not covered" >(r</span>esponse) =&gt; {
+            // Ensure service worker exists, and that we really are getting a JS file.
+<span class="cstat-no" title="statement not covered" >            if (</span>
+                response.status === 404 ||
+                response.headers.get('content-type').indexOf('javascript') ===
+                    -1
+            ) {
+                // No service worker found. Probably a different app. Reload the page.
+<span class="cstat-no" title="statement not covered" >                navigator.serviceWorker.ready.then(<span class="fstat-no" title="function not covered" >(r</span>egistration) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >                    registration.unregister().then(<span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >                        window.location.reload();</span>
+                    });
+                });
+            } else {
+                // Service worker found. Proceed as normal.
+<span class="cstat-no" title="statement not covered" >                registerValidSW(swUrl);</span>
+            }
+        })
+        .catch(<span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >            console.log(</span>
+                'No internet connection found. App is running in offline mode.'
+            );
         });
-      } else {
-        // Service worker found. Proceed as normal.
-<span class="cstat-no" title="statement not covered" >        registerValidSW(swUrl);</span>
-      }
-    })
-    .catch(<span class="fstat-no" title="function not covered" >()</span> =&gt; {
-<span class="cstat-no" title="statement not covered" >      console.log(</span>
-        'No internet connection found. App is running in offline mode.'
-      );
-    });
 }
 &nbsp;
 export function <span class="fstat-no" title="function not covered" >unregister(</span>) {
-<span class="cstat-no" title="statement not covered" >  if ('serviceWorker' in navigator) {</span>
-<span class="cstat-no" title="statement not covered" >    navigator.serviceWorker.ready.then(<span class="fstat-no" title="function not covered" >re</span>gistration =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >      registration.unregister();</span>
-    });
-  }
+<span class="cstat-no" title="statement not covered" >    if ('serviceWorker' in navigator) {</span>
+<span class="cstat-no" title="statement not covered" >        navigator.serviceWorker.ready.then(<span class="fstat-no" title="function not covered" >(r</span>egistration) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >            registration.unregister();</span>
+        });
+    }
 }
 &nbsp;</pre></td></tr></table></pre>
 
@@ -394,7 +403,7 @@ export function <span class="fstat-no" title="function not covered" >unregister(
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-09-03T18:56:45.746Z
+                at 2024-09-05T20:32:15.386Z
             </div>
         <script src="../prettify.js"></script>
         <script>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1725389805793" clover="3.2.0">
-  <project timestamp="1725389805793" name="All files">
+<coverage generated="1725568335435" clover="3.2.0">
+  <project timestamp="1725568335435" name="All files">
     <metrics statements="96" coveredstatements="42" conditionals="37" coveredconditionals="10" methods="47" coveredmethods="18" elements="180" coveredelements="70" complexity="0" loc="96" ncloc="96" packages="4" files="15" classes="15"/>
     <package name="src">
       <metrics statements="56" coveredstatements="20" conditionals="31" coveredconditionals="8" methods="21" coveredmethods="5"/>
       <file name="actions.js" path="/home/ferenc/Projects/Complete React Developer in 2023/robofriends-testing/src/actions.js">
         <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
       </file>
       <file name="constants.js" path="/home/ferenc/Projects/Complete React Developer in 2023/robofriends-testing/src/constants.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -40,8 +40,8 @@
         <line num="27" count="4" type="cond" truecount="4" falsecount="0"/>
         <line num="29" count="1" type="stmt"/>
         <line num="31" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
       </file>
       <file name="registerServiceWorker.js" path="/home/ferenc/Projects/Complete React Developer in 2023/robofriends-testing/src/registerServiceWorker.js">
         <metrics statements="29" coveredstatements="0" conditionals="21" coveredconditionals="0" methods="14" coveredmethods="0"/>
@@ -62,18 +62,18 @@
         <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="59" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="71" count="0" type="stmt"/>
-        <line num="77" count="0" type="stmt"/>
-        <line num="80" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="85" count="0" type="stmt"/>
-        <line num="86" count="0" type="stmt"/>
-        <line num="87" count="0" type="stmt"/>
-        <line num="92" count="0" type="stmt"/>
-        <line num="96" count="0" type="stmt"/>
-        <line num="103" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="104" count="0" type="stmt"/>
-        <line num="105" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="82" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="106" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.api">
@@ -105,7 +105,7 @@
         <line num="13" count="3" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="19" count="5" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
       </file>
       <file name="ErrorBoundry.js" path="/home/ferenc/Projects/Complete React Developer in 2023/robofriends-testing/src/components/ErrorBoundry.js">
         <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
@@ -146,13 +146,13 @@
       <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="App.js" path="/home/ferenc/Projects/Complete React Developer in 2023/robofriends-testing/src/containers/App.js">
         <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
       </file>
     </package>
   </project>
