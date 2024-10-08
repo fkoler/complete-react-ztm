@@ -481,8 +481,9 @@ https://stackoverflow.com/questions/54419342/jest-enzyme-shallowwrapper-is-empty
 291. Snapshot Testing
 npm test -- --coverage
 
-
-
+298. Testing Actions
+https://www.npmjs.com/package/nock
+https://www.npmjs.com/package/supertest
 
 
 
