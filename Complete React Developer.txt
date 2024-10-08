@@ -497,14 +497,14 @@ https://github.com/babel/babel-loader
 yarn add webpack webpack-cli
 yarn add @babel/core @babel/preset-env @babel/preset-react babel-loader
 
+315. Webpack Config
+https://github.com/webpack-contrib/style-loader#style-loader
+https://github.com/webpack-contrib/css-loader#css-loader
+https://webpack.js.org/plugins/html-webpack-plugin/#installation
 
-
-
-
-
-
-
-
+yarn add style-loader css-loader
+yarn add html-loader html-webpack-plugin
+yarn build
 
 
 
