@@ -485,8 +485,8 @@ npm test -- --coverage
 https://www.npmjs.com/package/nock
 https://www.npmjs.com/package/supertest
 
-
-
+300. Aside - React Testing Library
+https://testing-library.com/docs/react-testing-library/intro/
 
 
 
