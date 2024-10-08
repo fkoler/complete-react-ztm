@@ -488,14 +488,14 @@ https://www.npmjs.com/package/supertest
 300. Aside - React Testing Library
 https://testing-library.com/docs/react-testing-library/intro/
 
+314. Introduction to Webpack + Babel
+https://webpack.js.org/concepts/
+https://www.regexbuddy.com/regex.html
+https://babeljs.io/docs/usage
+https://github.com/babel/babel-loader
 
-
-
-
-
-
-
-
+yarn add webpack webpack-cli
+yarn add @babel/core @babel/preset-env @babel/preset-react babel-loader
 
 
 
