@@ -514,9 +514,9 @@ https://www.gatsbyjs.com/docs/reference/gatsby-cli/
 https://github.com/gatsbyjs/gatsby-starter-blog
 https://www.gatsbyjs.com/plugins
 
-
-
-
+319. Gatsby Pages
+https://www.gatsbyjs.com/docs/creating-and-modifying-pages/
+https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
 
 
 
