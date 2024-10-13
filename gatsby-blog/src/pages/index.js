@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-export default ({ data }) => {
+const Head = ({ data }) => {
   console.log(data)
 
   return (
@@ -27,12 +27,7 @@ export default ({ data }) => {
   )
 }
 
-/**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
-export const Head = () => <Seo title="Home" />
+export default Head
 
 export const query = graphql`
   query {
