@@ -521,9 +521,9 @@ https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
 320. Gatsby GraphQL + Markdown
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-
-
-
+321. Building Our Blog 1
+https://www.gatsbyjs.com/plugins/gatsby-transformer-remark/
+https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/
 
 
 
