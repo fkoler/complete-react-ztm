@@ -529,14 +529,14 @@ https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/
 https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/
 https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/#createfilepath
 
+324. Building Our Blog 3
+https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/#createPages
+https://www.gatsbyjs.com/docs/reference/config-files/actions/#createPage
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#tagged_templates
 
-
-
-
-
-
-
-
+324. Building Our Blog 4
+https://legacy.reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml
+https://nodejs.org/docs/latest-v20.x/api/path.html
 
 
 
