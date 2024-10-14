@@ -1,6 +1,6 @@
 ---
 title: "My First Rammstein AMA"
-date: "2024-10-10"
+date: "2024-10-14"
 description: "Exploring Rammstein with fans – ask anything!"
 ---
 
